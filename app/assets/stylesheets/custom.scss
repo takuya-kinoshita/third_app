@@ -1,0 +1,51 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+header{
+  height: 10px;
+}
+
+body{
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+#logo{
+  float: left;
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+}
+
+footer{
+  margin-top: 20px;
+  border-top: 1px solid;
+}
+
+footer small{
+
+  float: left;
+  padding-left: 20px;
+}
+
+
+footer ul{
+  float: right;
+}
+
+li{
+  list-style: none;
+  padding-right: 20px;
+}
+
+/* footer */
+
+small{
+  color: white;
+}
