@@ -1,0 +1,10 @@
+<div class="container row">
+  <aside class="col-md-4">
+  <% @users.each do |user| %>
+    <p><%= user.name %></p>
+    <p><%= user.email %></p>
+    <p>----------------</p>
+
+  <% end %>
+  </aside>
+</div>
