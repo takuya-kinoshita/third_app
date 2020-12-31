@@ -14,4 +14,9 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     get root_path
     assert flash.empty?
   end
+
+  test "you should be able to logout" do
+    delete logout_path
+    assert_not logged_in?
+  end
 end
